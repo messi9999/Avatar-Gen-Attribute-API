@@ -15,6 +15,18 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # It's better to install dlib separately to ensure errors are caught specifically
+
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libopenblas-dev \
+    liblapack-dev \
+    libx11-dev \
+    libgtk-3-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install numpy
 RUN pip install dlib
 
 # Copy the current directory contents into the container at /app
