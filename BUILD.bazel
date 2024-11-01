@@ -1,7 +1,7 @@
 [label BUILD.bazel]
 oci_push(
     name = "unshakeapp_image",
-    image = ":custom_image",
+    image = ":unshakeapp_image",
     repository = "index.docker.io/matthewb555/unshakeapp_image",
     remote_tags = ["latest"]
 )
