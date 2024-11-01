@@ -1,21 +1,7 @@
-load("@io_bazel_rules_docker//container:container.bzl", "container_image")
-load("@io_bazel_rules_docker//container:push.bzl", "container_push")
+# BUILD file
 
-# Define the container image using container_image rule
+load("@rules_docker//container:container.bzl", "container_image")
+
 container_image(
-    name = "unshakeapp_image",
-    base = "@unshakeapp_image//unshakeapp_image",  # This should be the label of your base image
-    labels = {
-        "maintainer": "your-email@example.com",
-    },
-)
-
-# Define the rule to push the image to a registry
-container_push(
-    name = "push_unshakeapp_image",
-    image = ":unshakeapp_image",
-    format = "Docker",
-    registry = "index.docker.io",
-    repository = "matthewb555/unshakeapp_image",
-    tag = "latest",
+    name = "my_docker_image",
 )
