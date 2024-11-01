@@ -2,6 +2,6 @@
 oci_push(
     name = "push_custom_image",
     image = ":custom_image",
-    repository = "index.docker.io/{YOUR_USERNAME}/custom_image",
+    repository = "index.docker.io/matthewb555/custom_image",
     remote_tags = ["latest"]
 )
