@@ -12,7 +12,7 @@ container_image(
 
 # Define the rule to push the image to a registry
 container_push(
-    name = "unshakeapp_image",
+    name = "push_unshakeapp_image",
     image = ":unshakeapp_image",
     format = "Docker",
     registry = "index.docker.io",
