@@ -1,0 +1,131 @@
+{
+  "Essence Color": {
+
+    "White": {
+      "Milky White": "#D75F8D",
+      "Porcelain": "#EAE6E3",
+      "Creamy Ivory": "#F5EEDC",
+      "Bisque": "#D75F8D",
+      "Parchment": "#FCF5E5",
+      "Pearl": "#D75F8D"
+    },
+
+    "Pinks": {
+      "Cream of Peach": "#D75F8D",
+      "Cameo Pink": "#DCA9B8",
+      "Seashell Pink": "#F7C8C2",
+      "Cool Pink": "#E9CBD3",
+      "Icy Pink": "#FCD3D9",
+      "Dusty Rose": "#AF7B7F",
+      "Violet Rose": "#C73C7D",
+      "Peach": "#F6C19F",
+      "Peach Pink": "#FA9A84"
+    },
+
+    "Yellows": {
+      "Yellow Brown": "#AE8B0D",
+      "Yellow Beige": "#F1C969",
+      "Sand": "#CDB48C"
+    },
+
+    "Golds": {
+      "Golden Beige": "#A9815D",
+      "Yellow Gold": "#D39F54",
+      "Golden Brown": "#91662F",
+      "Golden Olive": "#B09842",
+      "Golden Tan": "#DECA98"
+    },
+
+    "Beiges": {
+      "Pale Beige": "#F5F0EA",
+      "Rose Beige": "#E4C9C2",
+      "Grey Beige": "#A5977C",
+      "Copper Beige": "#D69984",
+      "Tawny Beige": "#EBBA9A",
+      "Brown Beige": "#AE7F51"
+    },
+
+    "Browns": {
+      "Olive": "#5E6738",
+      "Rose Brown": "#835E66",
+      "Gray Brown": "#7F7053",
+      "Mahogany": "#824D47",
+      "Chestnut": "#56433C",
+      "Golden Brown": "#926127",
+      "Cedar Wood": "#A3645B",
+      "Caramel": "#C47C56",
+      "Bronze Brown": "#835D2E",
+      "Ash Brown": "#98623C"
+    }
+  },
+
+  "Romantic Color": {
+
+    "Group A": {
+      "Cool Dusty Pink": "#E1B4B1",
+      "Barbie Doll Pink": "#EF4B88",
+      "Carnation Pink": "#EE79A5",
+      "Peach": "#F5B792",
+      "Peach Coral": "#E9A799",
+      "Light Orange": "#FEAA48",
+      "Creamsicle": "#F8AE7F",
+      "Apricot": "#F09135",
+      "Clear Red": "#BE261B",
+      "Bright Coral": "#F56B5E",
+      "Bright Cherry": "#950413"
+    },
+
+    "Group B": {
+      "Cool Shell Pink": "#F8807F",
+      "Rose Pink": "#EDB3A7",
+      "Dusty Rose": "#B07C7E",
+      "Strawberry": "#FD7A8C",
+      "Raspberry": "#D42E5E",
+      "Watermelon": "#FD465A",
+      "Fuchsia": "#D9017E",
+      "Geranium": "#DB3C58",
+      "Burgundy": "#76222F",
+      "Rust Burgundy": "#64323E",
+      "Mulberry": "#630845",
+      "Claret": "#811330",
+      "Cranberry": "#BB4A4C",
+      "Maroon": "#7C1E1C"
+    },
+
+    "Group C": {
+      "Salmon": "#F06D4F",
+      "Cool Pink": "#E9A799",
+      "Deep Apricot": "#EF8C31",
+      "Tangerine": "#F88F58",
+      "Flame": "#F2552C",
+      "Chinese Red": "#BD132D",
+      "Tomato": "#CE2939",
+      "Christmas Red": "#C40F16",
+      "Cayenne": "#E04952",
+      "Terra-Cotta": "#D38378",
+      "Paprika": "#CD4D42",
+      "Brick-Red": "#8C373E",
+      "Cinnamon": "#9B4725",
+      "Rust": "#B65930",
+      "Indian Red": "#CD5D5C",
+      "Orange Red": "#F15628"
+    },
+    
+    "Group D": {
+      "Shocking Pink": "#D75F8D",
+      "Ballet Pink": "#F1CFDD",
+      "Magenta": "#D23C79",
+      "Dusted Fuchsia": "#C34E7B",
+      "Ruby Red": "#E00F60",
+      "Poppy Red": "#DB343B",
+      "Fire Engine Red": "#BB002B",
+      "Crimson": "#AF0C37",
+      "Scarlet": "#BC2A3D",
+      "Vermilion": "#E44235",
+      "Cranberry": "#BB4A4C",
+      "Dark Cherry": "#650020",
+      "Burnt Brick": "#91403C",
+      "Port": "#663437"
+    }
+  }
+}
