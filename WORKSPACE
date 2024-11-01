@@ -17,12 +17,3 @@ repositories()
 # Load the language-specific rules and call their setup functions if necessary.
 # For example, if you're using Python, you might need to call the python_repositories function.
 # This step depends on the languages and tools you're using in your project.
-
-# Load the container_push rule from the rules_docker repository.
-load("@io_bazel_rules_docker//container:container.bzl", "container_push")
-
-# Call this function to set up the environment for using the container_push rule.
-container_push(
-    name = "setup_container_push",
-    # Additional attributes or overrides can be specified here if necessary.
-)
