@@ -1,8 +1,7 @@
-load("@io_bazel_rules_docker//container:container.bzl", "container_image")
-
-container_image(
+[label BUILD.bazel]
+oci_push(
     name = "unshakeapp_image",
-    base = "//:Dockerfile",
-    directory = ".",
-    tags = ["matthewb555/unshakeapp:latest"],  # Replace with your Docker Hub username and desired image name
+    image = ":custom_image",
+    repository = "index.docker.io/matthewb555/unshakeapp_image",
+    remote_tags = ["latest"]
 )
