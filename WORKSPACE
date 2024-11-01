@@ -9,7 +9,7 @@ http_archive(
     urls = ["https://github.com/bazelbuild/rules_docker/releases/download/v0.25.0/rules_docker-v0.25.0.tar.gz"],
 )
 
-load("@rules_docker//container:container.bzl", "container_repositories")
+load("@rules_docker//container:container.bzl", "container_repositories", "container_image")
 
 # Load all necessary container dependencies
 container_repositories()
