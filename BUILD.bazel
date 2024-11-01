@@ -1,0 +1,8 @@
+load("@io_bazel_rules_docker//container:container.bzl", "container_image")
+
+container_image(
+    name = "unshakeapp_image",
+    base = "//Avatar-Gen-Attribute-API:Dockerfile",
+    tags = ["matthewb555/unshakeapp:latest"],  # Replace with your Docker Hub username and desired image name
+    directory = ".",  # Set the build context to the current directory
+)
