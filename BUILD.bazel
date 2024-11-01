@@ -1,7 +1,0 @@
-[label BUILD.bazel]
-oci_push(
-    name = "push_custom_image",
-    image = ":custom_image",
-    repository = "index.docker.io/matthewb555/custom_image",
-    remote_tags = ["latest"]
-)
